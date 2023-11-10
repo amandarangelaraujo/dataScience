@@ -1,0 +1,15 @@
+import numpy as np
+array1 = np.array([1,2,3,4])
+array2 = array1 +2
+print(array2)
+
+arra3 = np.array([1,2,3,4], dtype="str")
+print(arra3)
+
+bool = [True,False, False, False]
+print(arra3[bool])
+
+matrix3x3 = np.array([[1000, 2000, 5],
+                       [3,4,5], 
+                       [7,6,5]])
+print(matrix3x3[2:, 1:])
